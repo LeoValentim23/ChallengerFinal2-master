@@ -1,0 +1,18 @@
+2023-11-12 23:08:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+INSERT INTO clientes (nome, carro, placa, peso_veiculo, cpf ,senha) VALUES (?, ?, ?, ?, ?, ?) [42104-220]
+2023-11-15 12:03:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Select * from clientes\000d\000a\000d\000aDrop [*]table cliente"; SQL statement:
+Select * from clientes
+
+Drop table cliente [42000-220]
+2023-11-15 12:03:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Select * from clientes\000d\000a\000d\000aDelete [*]* from cliente"; SQL statement:
+Select * from clientes
+
+Delete * from cliente [42000-220]
+2023-11-15 12:03:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Select * from clientes\000d\000a\000d\000aDrop [*]table cliente"; SQL statement:
+Select * from clientes
+
+Drop table cliente [42000-220]

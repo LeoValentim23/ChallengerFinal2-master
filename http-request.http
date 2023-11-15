@@ -1,0 +1,13 @@
+###
+POST http://localhost:8080/ChallengerFinal/Login
+Content-Type: application/json
+
+{
+  "cpf": "45324285825",
+  "senha": "111"
+  
+}
+
+<> 2023-11-12T232032.404.json
+
+###

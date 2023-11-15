@@ -1,0 +1,5 @@
+# Project exclude paths
+/out/
+
+# Editor-based HTTP Client requests
+/ChallengerFinal-ba7e8a220868d96c0f8e0caf8c57f133b2390f5b/httpRequests/
